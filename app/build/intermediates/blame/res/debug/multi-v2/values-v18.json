@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\HyWork\\SingleTaskTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hjl\\.gradle\\wrapper\\dists\\gradle-2.14.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ff71d8953d6e8e9cede157bd5cf9846b\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

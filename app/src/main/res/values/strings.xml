@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SingleTaskTest</string>
+    <string name="mainstring">主界面(SingletastActivity)</string>
+    <string name="onestring">界面1</string>
+    <string name="twostring">界面2：波形图</string>
+    <string name="let">无参无返回值的方法</string>
+    <string name="let2">有返回值的方法</string>
+    <string name="let3">有参无返回值的方法</string>
+    <string name="let4">绘制</string>
+    <string name="twostring1">界面2拍照OtherActivity</string>
+    <string name="twostring2">图库Hyactivity</string>
+    <string name="mainstring_jc">图片剪切</string>
+    <string name="onestring1">网页选择AD图片并预览</string>
+</resources>

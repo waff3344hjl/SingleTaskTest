@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/wv_webview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <Button
+        android:id="@+id/bt1"
+        android:layout_gravity="center"
+        android:text="@string/let"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_gravity="center"
+        android:text="@string/let2"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/bt3"
+        android:layout_gravity="center"
+        android:text="@string/let3"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/bt4"
+        android:layout_gravity="center"
+        android:text="@string/let4"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

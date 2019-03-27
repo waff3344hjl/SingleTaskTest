@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\HyWork\\SingleTaskTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hjl\\.gradle\\wrapper\\dists\\gradle-2.14.1-all\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.5.aar\\66685111fe7e00e4d3f19e6897fc8c98\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "136"
+                    }
+                }
+            ]
+        }
+    ]
+}

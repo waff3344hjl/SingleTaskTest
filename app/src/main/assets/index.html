@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript" src="file:///android_asset/js/text.js"></script>
+    <script type="text/javascript" src="file:///android_asset/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="file:///android_asset/css/index.css" />
+</head>
+<body>
+
+        <br />
+        车牌号：<input type="text" name="un" maxlength="10" id="cph">
+        <br />
+        <br />
+        手机号：<input type="number" name="pw" maxlength="10" id="sjh">
+        <br />
+        <br />
+        头像: <input type="file"  value="文件" align="center" id="file"/>
+        <br />
+        <br />
+        <div align="center">
+            <input type="submit" value="注册" align="center" onclick="register"/>
+            <input type="reset"  value="重置" align="center" id="cz"/>
+            <button type="button" id="entry_btn" onclick="gettime()">提交</button>
+            <button type="button" id="entry_btn1" onclick="gettime1()">照片</button>
+            <button type="button" id="entry_btn2" onclick="gettime2()">拍照</button>
+        </div>
+        <br />
+        <br />
+        <div class="content">
+            <h1>我是网页</h1>
+            <img id="img1" />
+            <img id="img2"/>
+            <img id="img3" />
+            <img id="img4" />
+        </div>
+
+        <script type="text/javascript">
+
+              	function gettime2(){
+                        window.android.takePhoto();
+	          }
+	          <!--function gettime3(){-->
+	                <!--window.android.getPhotoFromTK();-->
+	         <!--}-->
+	  <!--选择并显示图片-->
+	 var imgDom;
+	$(function() {
+
+		/*点击事件*/
+		$("img").on("click", function() {
+			console.log("点击调android拍照");
+			imgDom = this; //将当前点击的img标签赋给变量imgDom
+			console.log("当前节点:" + imgDom);
+			window.android.getPhotoFromTK();
+
+		});
+
+	});
+
+	/*显示图片*/
+	function displayImg(path) {
+		console.log("显示图片");
+		$(imgDom).attr("src", "file://" + path);
+
+	}
+
+        </script>
+	
+</body>
+</html>
